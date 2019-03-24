@@ -15,6 +15,7 @@ if(choice==1):
     for f in f1:
         numLines+=1
     kLOC=numLines/1000
+    print("Number of lines in your code : ",kLOC," kLoC")
 else:
     kLOC = int(input("Enter the Number of Lines of Code (in kLOC)   :   "))
 
