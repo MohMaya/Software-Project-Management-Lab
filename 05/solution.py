@@ -355,6 +355,7 @@ else:
 
 #Effort Adjustment Factor
 EAF = RSR*SoAD*CotP*RtPC*MC*VotVME*RTT*AC*SEC*AE*VME*PLE*UoST*AoSEM*RDS
+print("Effort Adjustment Factor = ",EAF)
 effort = a*(kLOC**b)*EAF
 dev_time = c*(effort**d)
 print("\nBy The Intermediate COCOMO : \nEffort = ",effort," Person-Months\nDevelopment time = ",dev_time," chronological months.")
